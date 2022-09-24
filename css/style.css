@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+:root{
+ --text-color:#333;
+}
+
+body{
+ font-family: Lato, Helvetica, sans-serif;
+ line-height: 1.6;
+ color: var(--text-color);
+}
+
+.navbar{
+ padding: 0 40px;
+}
+
+.navbar img{
+ width: 80px;
+}
+
+.navbar ul{
+ display: flex;
+}
+
+.navbar-1{
+ display: flex;
+ align-items: center;
+}
+
+span{
+ color: blue;
+}
+
+li{
+ list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+ color: var(--text-color);
+ padding:0 15px;
+ font-weight: bold;
+}
+
+a:hover{
+ color: #ff764d;
+}
+
+/* Main-Area */
+main{
+ margin: 0 40px;
+}
+
+.text h4{
+ display: inline-block;
+ padding-bottom: 20px;
+
+}
+
+.main-image{
+ background-image: url(/Images/pexels-brett-sayles-4086274.jpg);
+ background-size: contain;
+ background-repeat: no-repeat ;
+ background-position: 50% 50%;
+ height: 500px ;
+ width: 100%;
+ /* display: flex;
+ margin: auto; */
+}
+
+.header h1{
+min-height: 75vh;
+font-weight: 400;
+color: #ff764d;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+/* Mid Section */
+.mid{
+ margin-bottom: 50px;
+}
+
+.mid .container{
+ position: relative;
+ 
+}
+
+.mid div{
+ position: absolute;
+}
+
+.mid .yellow{
+ background-color: #fbffa7;
+ height: 600px;
+ width: 60%;
+ top: 0;
+ right: 0;
+ }
+
+
+
+ /* Video section 1 - small */
+ .vid1{
+  padding: 100px 50px;
+  
+ }
+
+/* Utilities */
+.flex{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+/* Text Size */
+.sm{
+font-size: .8rem;
+}
+
+.md{
+ font-size: 1.2rem;
+}
+
+.lg{
+font-size: 3.2rem;
+}
+
+.xl{
+ font-size: 6.4rem;
+}
+
+/* Paragraph and padding */
+.text-paragraph {
+ margin: 100px 200px;
+ padding: 10px 100px;
+}
+
+.text-paragraph p {
+ padding: 10px 0;
+}
+
+.text-paragraph>*:first-child {
+ font-weight: 600;
+}
