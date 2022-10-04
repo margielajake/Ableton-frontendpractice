@@ -1,154 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 *{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
-}
-
-:root{
- --text-color:#333;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body{
- font-family: Lato, Helvetica, sans-serif;
- line-height: 1.6;
- color: var(--text-color);
-}
-
-.navbar{
- padding: 0 40px;
-}
-
-.navbar img{
- width: 80px;
-}
-
-.navbar ul{
- display: flex;
-}
-
-.navbar-1{
- display: flex;
- align-items: center;
-}
-
-span{
- color: blue;
+  font-family: Montserrat, arial, Helvetica, sans-serif;
+  margin-bottom: 300px;
 }
 
 li{
- list-style-type: none;
+  list-style-type: none;
 }
 
 a{
- text-decoration: none;
- color: var(--text-color);
- padding:0 15px;
- font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-a:hover{
- color: #ff764d;
+header img{
+  width: 90px;
 }
 
-/* Main-Area */
-main{
- margin: 0 40px;
+.container{
+  border-bottom: 1px solid rgb(224, 224, 224);
+  height: 60px;
+  padding: 0 20px;
 }
 
-.text h4{
- display: inline-block;
- padding-bottom: 20px;
-
+.navbar ul{
+  display: flex;
 }
 
-.main-image{
- background-image: url(/Images/pexels-brett-sayles-4086274.jpg);
- background-size: contain;
- background-repeat: no-repeat ;
- background-position: 50% 50%;
- height: 500px ;
- width: 100%;
- /* display: flex;
- margin: auto; */
+.navbar a:hover{
+  color: #ff764d;
 }
 
-.header h1{
-min-height: 75vh;
-font-weight: 400;
-color: #ff764d;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-
+.flex{
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Mid Section */
-.mid{
- margin-bottom: 50px;
+.navbar-1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.mid .container{
- position: relative;
+.navbar-2 a{
+  font-size: 12px;
+}
+
+span{
+  color: blue;
  
 }
 
-.mid div{
- position: absolute;
+.navbar-3{
+  margin: 20px 5px; 
 }
 
-.mid .yellow{
- background-color: #fbffa7;
- height: 600px;
- width: 60%;
- top: 0;
- right: 0;
- }
+.navbar-3 a{
+  font-size: 12px;
+}
 
+/* Main */
+.main{
+position: relative;
+}
 
-
- /* Video section 1 - small */
- .vid1{
-  padding: 100px 50px;
+.main img{
+  height: 450px;
+  width: 1050px;
+  object-fit: cover;
+  object-position: center;
   
- }
-
-/* Utilities */
-.flex{
- display: flex;
- justify-content: space-between;
- align-items: center;
 }
 
-/* Text Size */
-.sm{
-font-size: .8rem;
+.content{
+  text-align: center;
 }
 
-.md{
- font-size: 1.2rem;
-}
-
-.lg{
-font-size: 3.2rem;
-}
-
-.xl{
- font-size: 6.4rem;
-}
-
-/* Paragraph and padding */
-.text-paragraph {
- margin: 100px 200px;
- padding: 10px 100px;
-}
-
-.text-paragraph p {
- padding: 10px 0;
-}
-
-.text-paragraph>*:first-child {
+.main h1{
+ font-size: 100px;
  font-weight: 600;
+ color: #ff764d;
+ position: absolute;
+ top:26%;
+ left: 35%
 }
+
+.text-paragraph{
+  margin-top: 100px;
+  padding: 0 320px;
+  text-align: left;
+  line-height: 1.9;
+  font-size: 14px;
+}
+
+.text-paragraph >*:first-child{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Mid */
+.mid{
+  position: relative;
+  margin: 100px 0;
+  height: 1000px;
+}
+
+.yellow{
+  position: absolute;
+  background-color: #fbffa7;
+  width: 800px;
+  height: 700px;
+  top: 0;
+  right: 0;
+}
+
+.image1{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.image2{
+  position: absolute;
+  top: 12.5rem;
+  right: 7.5rem;
+}
+
+.one{
+  position: absolute;
+  margin-top: 800px;
+}
+
+/* Video Section */
+.video-section{
+  text-align: center;
+}
+
