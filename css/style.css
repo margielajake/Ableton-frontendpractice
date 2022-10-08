@@ -8,7 +8,7 @@
 
 body{
   font-family: Montserrat, arial, Helvetica, sans-serif;
-  margin-bottom: 300px;
+  margin-bottom: 20px;
 }
 
 li{
@@ -97,7 +97,7 @@ position: relative;
 }
 
 .text-paragraph{
-  margin-top: 100px;
+  margin: 100px 0;
   padding: 0 320px;
   text-align: left;
   line-height: 1.9;
@@ -107,6 +107,10 @@ position: relative;
 .text-paragraph >*:first-child{
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.text-paragraph p{
   margin-bottom: 15px;
 }
 
@@ -147,4 +151,216 @@ position: relative;
 .video-section{
   text-align: center;
 }
+
+/* Headquarters */
+.headquarter{
+  position: relative; 
+}
+
+.green{
+  background-color: #b6ffc0;
+  height: 800px;
+  width: 700px;
+}
+
+.left-top{
+  position: absolute;
+  width: 400px;
+  top: 8%;
+  left: 10%;
+}
+
+.left-bottom{
+  position: absolute;
+  width: 400px;
+  bottom: 35%;
+  left: 10%;
+}
+
+.right-center{
+  position: absolute;
+  height: 550px;
+  top: 120px;
+  right: 100px;
+}
+
+.fifth{
+  text-align: center;
+}
+
+.fifth video{
+  width: 1000px;
+}
+
+/* Employees */
+.employees{
+  position: relative;
+  height: 1100px;
+  margin: 100px 0;
+}
+
+.purple{
+  background-color: #d5b3ff;
+  height: 800px;
+  width: 900px;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+
+.right-right{
+  position: absolute;
+  height: 550px;
+  top: 120px;
+  right: 0;
+}
+
+.left-center {
+  position: absolute;
+  width: 400px;
+  top: 250px;
+  left: 10%;
+}
+
+.last{
+  margin: 0 100px;
+}
+
+.last img{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.grid{
+ display: grid;
+ grid-template-columns: 600px 400px;
+
+ 
+}
+
+.image-8{
+  width: 300px;
+}
+
+.blue{
+  background-color: #b1c5ff;
+  height: 500px;
+  width: 500px;
+  padding: 150px 100px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: left;
+}
+
+.blue a{
+  padding: 200px 0;
+  font-size: 20px;
+  font-weight: 700;  
+}
+
+/* Footer */
+
+footer{
+  margin-top: 100px;
+  border-top: 1px solid rgb(224, 224, 224) ;
+  padding: 30px 90px;
+}
+
+.grid-1{
+  display: grid;
+  grid-template-columns: 1fr 300px 500px;
+  column-gap: 40px;
+  row-gap: 70px;
+}
+
+footer h1{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+footer h4,
+footer p{
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+footer input{
+  height: 40px;
+  width: 350px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+}
+
+footer input::placeholder{
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+footer button{
+  height: 40px;
+  width: 120px;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 0px;
+  }
+
+  .sign-up{
+    display: flex;
+    align-items: center;
+  }
+
+  footer a{
+      padding: 0;
+      font-size: 15px;
+      font-weight: 300;
+      display: block;
+      margin-bottom: 15px;
+  }
+
+  footer img{
+    width: 36px;
+    margin-left: 4px;
+  }
+
+  .hallmark{
+    display: flex;
+    align-items: center;   
+  }
+
+  .hallmark p{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .bottom-line{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 70px;
+  }
+
+  .bottom-line ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .bottom-line li{
+    margin-right: 10px;
+  }
+
+  .bottom-line a{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
 
